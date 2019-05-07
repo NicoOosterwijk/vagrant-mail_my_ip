@@ -1,2 +1,1 @@
-[all]
-centos ansible_host=172.17.177.121
+centos ansible_host=172.17.177.121 ansible_user=vagrant ansible_password=vagrant
