@@ -1,0 +1,15 @@
+---
+# Ansible playbook to mail the IP address of a VM
+#
+# @author Nico Oosterwijk
+
+- hosts: centos
+  gather_facts: False
+  become: yes
+
+  vars:
+    from_address: nico.oosterwijk@ziggo.nl
+    to_address: noosterwijk@hotmail.com
+
+  roles:
+    - nicooosterwijk.ansible_mail_my_ip

@@ -10,8 +10,9 @@ After the VM is running we'll capture it's IP address(es) and mail them to the a
 - GIT
 
 ### Execute ###
-Pull this repository to your local machine and enter the following command:
+Pull this repository to your local machine and enter the following commands:
 ```sh
+ $ ansible-galaxy install -r requirements.yml
  $ vagrant up
 ```
 - Check your mail!
