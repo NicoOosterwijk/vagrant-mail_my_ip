@@ -1,0 +1,3 @@
+---
+# file: site.yml
+- role: nicooosterwijk.mail_my_ip
